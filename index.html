@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecNM - Instituto Tecnologico de Iztapalapa II</title>
+    <link rel="stylesheet" href="vaidroll.css">	
+    
+  
+    </head>
+
+<body>
+  </div>
+  
+  <div style="padding-left:16px">
+    <img src="LOGO-TECNM-una-linea-azul.png" alt="Girl in a jacket" width="700" height="150">
+    
+  </div>
+  
+<div class="caja1">
+
+<form method="post" action="login.php">
+<div class="formtlo">Iniciar sesión</div>
+<div class="ub1" >Usuario</div>
+<input type="text" name="txtusuario" placeholder="Usuario">
+<div class="ub1">Contraseña</div>
+<input type="password" name="txtpassword" placeholder="Contraseña" id="txtpassword">
+
+<div class="ub1">
+<input type="checkbox" onclick="verpassword()" >Mostrar contraseña
+ </div>
+<div class="ub1"></div>
+
+<select name="rol">
+
+<option value="0" style="display:none;"><label>Seleccione:</label></option>
+<option value="Usuario">Alumno</option>
+<option value="Admin">Administrador</option>
+</select>
+
+<div align="center">
+<input type="submit" value="Ingresar">
+
+<input type="reset" value="Cancelar">
+</div>
+</form>
+</div>
+</body>
+<script>
+  function verpassword(){
+      var tipo = document.getElementById("txtpassword");
+      if(tipo.type == "password")
+	  {
+          tipo.type = "text";
+      }
+	  else
+	  {
+          tipo.type = "password";
+      }
+  }
+</script>
+</html>
