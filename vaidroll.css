@@ -1,0 +1,74 @@
+*
+{
+	font-family:arial;
+	text-align:center;
+}
+body
+{
+	top:50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	background: #f2f2f2; 
+}
+
+.ub1
+{
+text-align:left;
+font-weight: bold;
+
+margin-bottom:0.5em;
+margin-top:0.5em;
+}
+.caja1
+{
+	background:#1b396a;
+	width:20em;
+    height: auto;
+    position: relative;
+    margin: auto;
+    padding: 2em;
+	border-radius: 1em;
+	color:rgb(255, 255, 255);
+
+
+}
+input, select
+{
+	width: 100%;
+    padding: 0.5em;
+	font-size:1em;
+	border-radius:5px;
+	border:1px solid rgb(0, 0, 0);
+	color:black;
+	text-align:left;
+	
+}
+input[type=submit],input[type=reset]
+{
+border-bottom:0.1em solid #0081CF;
+margin-top: 1em;
+width:40%;
+text-align:center;
+background-color: #0081CF;
+color:white;
+cursor:pointer;
+}
+input[type=checkbox]
+{
+margin-left:0;
+width:10%;
+cursor:pointer;
+}
+
+.formtlo
+{
+	font-size:2em;
+	font-weight: bold;
+	padding-bottom:0.8em;
+	color:rgb(241, 239, 239);
+}
+
+
+
+
